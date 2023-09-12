@@ -1,4 +1,4 @@
-package ru.netology.cloudservice.service;
+apackage ru.netology.cloudservice.service;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -14,9 +14,9 @@ import static org.mockito.Mockito.when;
 
 class AuthorizationServiceTest {
     public static final String AUTH_TOKEN = "Lena";
-    public static final String UNKNOWN_AUTH_TOKEN = "123";
+    public static final String UNKNOWN_AUTH_TOKEN = "246";
     public static final String EXISTING_USER = "nizhegorodtseva";
-    public static final String NOT_EXISTING_USER = "olga";
+    public static final String NOT_EXISTING_USER = "sveta";
     public static final String CORRECT_PASSWORD = "password";
 
     private final UserRepository userRepository = createUserRepositoryMock();
